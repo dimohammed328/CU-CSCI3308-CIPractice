@@ -1,8 +1,7 @@
-install: make
 script: make && make test
 language: c
 compiler: gcc
 addons:
-	apt:
-		packages:
-		-check
+  apt:
+    packages:
+    - check
